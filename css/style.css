@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+@layer colors {
+  :root {
+    --c-white: hsl(0, 100%, 100%);
+    --c-black: hsl(0, 0%, 0%);
+    --c-blue-950: hsl(217, 54%, 11%);
+    --c-blue-900: hsl(216, 50%, 16%);
+    --c-blue-800: hsl(215, 32%, 27%);
+    --c-blue-500: hsl(215, 51%, 70%);
+    --c-cyan-400: hsl(178, 100%, 50%);
+  }
+}
+
+@layer spacing {
+  :root {
+    --spacing-100: 0.5rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+  }
+}
+
 body {
   font-family: "Outift", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
