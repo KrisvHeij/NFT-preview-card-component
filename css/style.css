@@ -116,3 +116,7 @@ main {
   border: 1px solid var(--c-white);
   border-radius: 50%;
 }
+
+.card__footer__creator {
+  color: var(--c-white);
+}
