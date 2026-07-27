@@ -18,7 +18,14 @@
   <body>
     <main>
       <article class="card">
-        <img class="card__image" src="./images/image-equilibrium.jpg" alt="" />
+        <div class="overlay">
+          <div class="overlay--hover"></div>
+          <img
+            class="card__image"
+            src="./images/image-equilibrium.jpg"
+            alt="Klik hier voor meer informatie over Equilibrium"
+          />
+        </div>
         <div>
           <h1 class="card__header">Equilibrium #3429</h1>
           <p class="card__description">
@@ -26,10 +33,12 @@
           </p>
           <div class="card__subtext">
             <p class="card__price">
-              <span class="card__price__icon"></span> 0.041 ETH
+              <span class="card__price__icon" aria-hidden="true"></span> 0.041
+              ETH
             </p>
             <p class="card__time">
-              <span class="card__time__icon"></span>3 days left
+              <span class="card__time__icon" aria-hidden="true"></span>3 days
+              left
             </p>
           </div>
           <div class="card__footer">
