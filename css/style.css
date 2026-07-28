@@ -138,12 +138,10 @@ main {
 
 .card__price__icon {
   margin-inline-end: var(--spacing-100);
-  content: url("/images/icon-ethereum.svg");
 }
 
 .card__time__icon {
   margin-inline-end: var(--spacing-100);
-  content: url("/images/icon-clock.svg");
 }
 
 .card__footer {
