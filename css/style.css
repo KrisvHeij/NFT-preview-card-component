@@ -73,7 +73,7 @@ main {
 }
 
 .overlay::before {
-  content: url(/images/icon-view.svg);
+  content: url("/images/icon-view.svg");
   display: flex;
   justify-content: center;
   align-items: center;
