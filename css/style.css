@@ -33,6 +33,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: var(--c-blue-950);
   color: var(--c-blue-500);
@@ -86,11 +90,13 @@ main {
   transition: opacity 250ms ease;
 }
 
-.overlay:hover .overlay--hover {
+.overlay:hover .overlay--hover,
+.card a:focus .overlay--hover {
   opacity: 0.50;
 }
 
-.overlay:hover::before {
+.overlay:hover::before,
+.card a:focus .overlay::before {
   opacity: 1;
 }
 
@@ -165,6 +171,7 @@ main {
   transition: color 250ms ease;
 }
 
-.card__footer__creator:hover {
+.card__footer__creator:hover,
+.card__footer__creator:focus {
   color: var(--c-cyan-400);
 }
